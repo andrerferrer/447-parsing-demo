@@ -5,18 +5,18 @@ require 'json'
 filepath = 'data/drinks.json'
 
 # THIS IS HOW WE STORE IN A JSON
-drinks = { 
+drinks = {
   beers: [
     {
-      name:       'Edelweiss',
+      name: 'Edelweiss',
       appearance: 'White',
-      origin:     'Austria'
+      origin: 'Austria'
     },
     {
-      name:       'Guinness',
+      name: 'Guinness',
       appearance: 'Stout',
-      origin:     'Ireland'
-    },
+      origin: 'Ireland'
+    }
     # etc...
   ],
   cachacas: [

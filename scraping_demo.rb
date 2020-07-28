@@ -17,4 +17,3 @@ html_doc.search('.teaser-item__title a').each do |element|
   link = element.attribute('href').value
   puts "https://www.bbcgoodfood.com#{link}"
 end
-

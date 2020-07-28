@@ -6,10 +6,10 @@ filepath = 'data/beers.csv'
 csv_options = { col_sep: ',', force_quotes: true, quote_char: '"' }
 
 CSV.open(filepath, 'wb', csv_options) do |csv|
-  csv << [ 'Name', 'Appearance', 'Origin' ]
-  csv << [ 'Itaipólvora', 'Light (bad)', 'Brazil' ]
-  csv << [ 'Antartica', 'Blond (also bad)', 'Brazil' ]
-  csv << [ 'Stella Artois', 'Blond', 'Belgium' ]
+  csv << ['Name', 'Appearance', 'Origin']
+  csv << ['Itaipólvora', 'Light (bad)', 'Brazil']
+  csv << ['Antartica', 'Blond (also bad)', 'Brazil']
+  csv << ['Stella Artois', 'Blond', 'Belgium']
 end
 
 
